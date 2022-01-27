@@ -81,9 +81,9 @@ fig.show()
 fig_dr = px.line(final_port_vol, x=final_port_vol.index, y = final_port_vol.columns)
 #Map lines/series to groups
 maps = {'Crypto': ['BTC Daily Returns', 'ETH Daily Returns', 'TRX Daily Returns', 'XMR Daily Returns', 'XLM Daily Returns'],
-            'Natural Resources': ['Gold Daily Returns', 'Silver Daily Returns', 'Crude Oil Daily Returns', 'Lumber Daily Returns', 'Gasoline Daily Returns'],
-            'Stocks': ['MSTR Daily Returns','AMC Daily Returns','GME Daily Returns','SPY Daily Returns','TSLA Daily Returns'],
-           'Agriculture':['Wheat Daily Returns', 'Corn Daily Returns', "FD Cattle Daily Returns", "Hogs Daily Returns", 'GF Cattle']}
+        'Natural Resources': ['Gold Daily Returns', 'Silver Daily Returns', 'Crude Oil Daily Returns', 'Lumber Daily Returns', 'Gasoline Daily Returns'],
+        'Stocks': ['MSTR Daily Returns','AMC Daily Returns','GME Daily Returns','SPY Daily Returns','TSLA Daily Returns'],
+        'Agriculture':['Wheat Daily Returns', 'Corn Daily Returns', "FD Cattle Daily Returns", "Hogs Daily Returns", 'GF Cattle']}
 
 #Create group and trace visibilites
 group = []

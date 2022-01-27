@@ -190,7 +190,7 @@ gold_daily_returns['Portfolio'] = pd.NaT
 gold_daily_returns = gold_daily_returns.assign(Portfolio=(1+gold_daily_returns['Gold'].fillna(0)).cumprod().mul(starting_value))
 
 #Rename columns. 
-gold = gold_daily_returns.rename(columns={'Gold':'Gold Daily Returns', "Portfolio":" Gold Port"})
+gold = gold_daily_returns.rename(columns={'Gold':'Gold Daily Returns', "Portfolio":"Gold Port"})
 
 
 
@@ -219,7 +219,7 @@ silver_daily_returns['Portfolio'] = pd.NaT
 silver_daily_returns = silver_daily_returns.assign(Portfolio=(1+silver_daily_returns['Silver'].fillna(0)).cumprod().mul(starting_value))
 
 #Rename columns. 
-silver = silver_daily_returns.rename(columns={'Silver':'Silver Daily Returns', "Portfolio":" Silver Port"})
+silver = silver_daily_returns.rename(columns={'Silver':'Silver Daily Returns',"Portfolio":"Silver Port"})
 
 
 
@@ -299,7 +299,7 @@ gasoline_daily_returns['Portfolio'] = pd.NaT
 gasoline_daily_returns = gasoline_daily_returns.assign(Portfolio=(1+gasoline_daily_returns['Gasoline'].fillna(0)).cumprod().mul(starting_value))
 
 #Rename columns. 
-gasoline = gasoline_daily_returns.rename(columns={'Gasoline':'Gasoline Daily Returns', "Portfolio":" Gasoline Port"})
+gasoline = gasoline_daily_returns.rename(columns={'Gasoline':'Gasoline Daily Returns', "Portfolio":"Gasoline Port"})
 
 
 

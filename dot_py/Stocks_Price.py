@@ -336,7 +336,7 @@ AMC_daily_returns = AMC_daily_returns.assign(Portfolio=(1+AMC_daily_returns['AMC
 
 
 #Rename columns. 
-AMC = AMC_daily_returns.rename(columns={'AMC':'AMC Daily Returns',"Portfolio":"AMC Port "})
+AMC = AMC_daily_returns.rename(columns={'AMC':'AMC Daily Returns',"Portfolio":"AMC Port"})
 # Review AMC Data Frame
 
 # In[76]:
@@ -365,7 +365,7 @@ GME_daily_returns = GME_daily_returns.assign(Portfolio=(1+GME_daily_returns['GME
 
 
 #Rename columns. 
-GME = GME_daily_returns.rename(columns={'GME':'GME Daily Returns',"Portfolio":"GME Port "})
+GME = GME_daily_returns.rename(columns={'GME':'GME Daily Returns',"Portfolio":"GME Port"})
 
 # In[80]:
 
@@ -390,7 +390,7 @@ MSTR_daily_returns = MSTR_daily_returns.assign(Portfolio=(1+MSTR_daily_returns['
 
 
 #Rename columns. 
-MSTR = MSTR_daily_returns.rename(columns={'MSTR':'MSTR Daily Returns',"Portfolio":"MSTR Port "})
+MSTR = MSTR_daily_returns.rename(columns={'MSTR':'MSTR Daily Returns',"Portfolio":"MSTR Port"})
 # Review MSTR Data Frame
 
 
@@ -424,7 +424,7 @@ SPY_daily_returns = SPY_daily_returns.assign(Portfolio=(1+SPY_daily_returns['SPY
 
 
 #Rename columns. 
-SPY = SPY_daily_returns.rename(columns={'SPY':'SPY Daily Returns',"Portfolio":"SPY Port "})
+SPY = SPY_daily_returns.rename(columns={'SPY':'SPY Daily Returns',"Portfolio":"SPY Port"})
 
 
 
@@ -451,7 +451,7 @@ TSLA_daily_returns = TSLA_daily_returns.assign(Portfolio=(1+TSLA_daily_returns['
 
 
 #Rename columns. 
-TSLA = TSLA_daily_returns.rename(columns={'TSLA':'TSLA Daily Returns',"Portfolio":"TSLA Port "})
+TSLA = TSLA_daily_returns.rename(columns={'TSLA':'TSLA Daily Returns',"Portfolio":"TSLA Port"})
 
 
 
