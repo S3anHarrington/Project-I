@@ -70,6 +70,8 @@ fig.update_layout(
         buttons = buttons)
     ],
 )
+#Add title and center it. 
+fig.update_layout(title_text='Stimmy Board April 2020 - Dec 2021 Portfolio Returns ', title_x=0.5)
 # buttons
 fig.show()
 
@@ -122,5 +124,8 @@ fig_dr.update_layout(
         buttons = buttons)
     ],
 )
+
+#Add title and center it
+fig_dr.update_layout(title_text='Stimmy Board April 2020 - Dec 2021 Daily Returns % ', title_x=0.5)
 # buttons
 fig_dr.show()
