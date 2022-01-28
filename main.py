@@ -10,13 +10,13 @@ import plotly.graph_objects as go
 #Import Portfolio df of each asset category.
 from dot_py.cleaned_df import agriculture_daily_returns_sliced 
 from dot_py.Project_I import crypto_sliced
-from dot_py.Stimulous_Check_Profit_Analyzer import resources_sliced
+from dot_py.Stimulus_Check_Profit_Analyzer import resources_sliced
 from dot_py.Stocks_Price import stocks_sliced 
 
 #Import Daily Returns(%) df of each asset category.
 from dot_py.Project_I import crypto_sliced_vol
 from dot_py.cleaned_df import agriculture_daily_returns_sliced_vol
-from dot_py.Stimulous_Check_Profit_Analyzer import resources_sliced_vol
+from dot_py.Stimulus_Check_Profit_Analyzer import resources_sliced_vol
 from dot_py.Stocks_Price import stocks_sliced_vol
 
 #Concatenate portfolio dataframes into one. 
