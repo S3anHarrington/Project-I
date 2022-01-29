@@ -1,12 +1,15 @@
+#count runtime for application
+import time
+start_time = time.time()
+
 import sys
 import csv
 import pandas as pd 
 from pathlib import Path
 import plotly.express as px
-import time
 
-#count runtime for application
-start_time = time.time()
+print("--- Main.py libraries imported in: %s seconds ---" % (time.time() - start_time))
+
 
 #Starting variable as an input.
 x = (input("Enter a starting amount:$ "))
