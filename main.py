@@ -6,7 +6,20 @@ from pathlib import Path
 import plotly.express as px
 import plotly.offline as pyo
 import plotly.graph_objects as go
+import time
+#count runtime for application
+start_time = time.time()
 
+
+#'../The_Hodlers/starting_value.txt'
+#Starting variable as an input.
+x = (input("Enter a starting amount:$ "))
+
+y = open('../The_Hodlers/starting_value.txt', 'w')
+y.write(x)
+y.close()
+
+print("--- Variable input completed in: %s seconds ---" % (time.time() - start_time))
 #Import Portfolio df of each asset category.
 from dot_py.cleaned_df import agriculture_daily_returns_sliced 
 from dot_py.Project_I import crypto_sliced
@@ -19,11 +32,14 @@ from dot_py.cleaned_df import agriculture_daily_returns_sliced_vol
 from dot_py.Stimulus_Check_Profit_Analyzer import resources_sliced_vol
 from dot_py.Stocks_Price import stocks_sliced_vol
 
+print("--- ETL imports completed in: %s  ---" % (time.time() - start_time))
+
 #Concatenate portfolio dataframes into one. 
 final_port = pd.concat([crypto_sliced, agriculture_daily_returns_sliced, resources_sliced, stocks_sliced], axis=1).dropna() #otherwise there are gaps in the lines due to 24/7 crypto tradeability. 
 
 #Concatenate daily returns % dataframes into one. 
 final_port_vol = pd.concat([agriculture_daily_returns_sliced_vol, crypto_sliced_vol, resources_sliced_vol, stocks_sliced_vol], axis=1).dropna()  #otherwise there are gaps in the lines due to 24/7 crypto tradeability. 
+print("--- Concatenation completed in: %s seconds ---" % (time.time() - start_time))
 
 #Build a figure for the portfolio dataframe.
 fig = px.line(final_port, x=final_port.index, y = final_port.columns)
@@ -71,10 +87,10 @@ fig.update_layout(
     ],
 )
 #Add title and center it. 
-fig.update_layout(title_text='Stimmy Board April 2020 - Dec 2021 Portfolio Returns ', title_x=0.5)
+fig.update_layout(yaxis_title="Portfolio Amounts",title_text='Stimmy Board April 2020 - Dec 2021 Portfolio Returns ', title_x=0.5)
 # buttons
 fig.show()
-
+print("--- Figure I completed in: %s seconds ---" % (time.time() - start_time))
 
 
 #Create graph for Daily Returns (%)
@@ -126,6 +142,8 @@ fig_dr.update_layout(
 )
 
 #Add title and center it
-fig_dr.update_layout(title_text='Stimmy Board April 2020 - Dec 2021 Daily Returns % ', title_x=0.5)
+fig_dr.update_layout(yaxis_title="Daily Returns",title_text='Stimmy Board April 2020 - Dec 2021 Daily Returns % ', title_x=0.5)
 # buttons
 fig_dr.show()
+
+print("--- Figure II completed in: %s seconds ---" % (time.time() - start_time))

@@ -10,15 +10,13 @@ from pathlib import Path
 # Import the NumPy library
 import numpy as np
 import csv
-import questionary
-import fire
 import sys
 import plotly.express as px
 import plotly.offline as pyo
 import plotly.graph_objects as go
 
-
-# In[24]:
+starting_value_str = open("../The_Hodlers/starting_value.txt",'r')
+starting_value = float(starting_value_str.read())
 
 
 # Read in the CSV file called "AMC_.csv" using the Path module. 

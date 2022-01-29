@@ -5,9 +5,7 @@
 
 
 import sys 
-import fire
 import csv
-import questionary
 import pandas as pd 
 from pathlib import Path
 
@@ -15,7 +13,11 @@ import plotly.express as px
 import plotly.offline as pyo
 import plotly.graph_objects as go
 
-starting_value = 1200
+
+
+starting_value_str = open("../The_Hodlers/starting_value.txt",'r')
+starting_value = (starting_value_str.read())
+starting_value = float(starting_value)
 
 # In[4]:
 
