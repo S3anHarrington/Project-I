@@ -7,15 +7,13 @@
 #Import the required libraries and dependencies.
 import pandas as pd
 from pathlib import Path
-# Import the NumPy library
-import numpy as np
 import csv
 import sys
-import plotly.express as px
-import plotly.offline as pyo
-import plotly.graph_objects as go
 
+
+#Open txt file and store as a variable. 
 starting_value_str = open("../The_Hodlers/starting_value.txt",'r')
+
 starting_value = float(starting_value_str.read())
 
 

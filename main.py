@@ -2,21 +2,19 @@ import sys
 import csv
 import pandas as pd 
 from pathlib import Path
-
 import plotly.express as px
-import plotly.offline as pyo
-import plotly.graph_objects as go
 import time
+
 #count runtime for application
 start_time = time.time()
 
-
-#'../The_Hodlers/starting_value.txt'
 #Starting variable as an input.
 x = (input("Enter a starting amount:$ "))
-
+#Open txt file in write mode. 
 y = open('../The_Hodlers/starting_value.txt', 'w')
+#Write input variable to txt file.
 y.write(x)
+#Close txt file.
 y.close()
 
 print("--- Variable input completed in: %s seconds ---" % (time.time() - start_time))
