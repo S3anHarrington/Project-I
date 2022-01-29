@@ -28,6 +28,47 @@ To execute the application properly, first clone the repository using 'git clone
 
 ---
 
+#### :bar_chart:A visualize data of Stocks returns from April 15th, 2020 to December 31st, 2021
+
+*The most return of stock is* **GME** :star_struck:
+
+*The less return of stock is* **SPY** :sweat_smile:
+
+![stocks_pro_1](https://user-images.githubusercontent.com/94591580/151680757-3535ac1c-d4b6-4b34-8a9a-9cc395199127.png)
+---
+
+#### :bar_chart:A visualize data of Crypto returns from April 15th, 2020 to December 31st, 2021
+
+*The most return of crypto is* **ETH** :star_struck:
+
+*The less return of stock is* **XMR** :sweat_smile:
+
+![crypto_pro_1](https://user-images.githubusercontent.com/94591580/151681016-5ea3000e-a84d-444a-8f0a-f66884553ddf.png)
+---
+
+#### :bar_chart:A visualize data of  Natural Resources returns  from April 15th, 2020 to December 31st, 2021
+
+*The most notice of Natural Resoruces is* **Crude Oil Port** is from negative to positive :star_struck:
+
+*Also,* **Lumber** was at peak with 507% gain on May 7th, 2021  :sweat_smile:
+
+![natural_pro_1](https://user-images.githubusercontent.com/94591580/151681074-41c084ef-8ccd-4452-87cc-f2a984af2171.png)
+---
+
+#### :bar_chart:A visualize data of Agriculture returns  from April 15th, 2020 to December 31st, 2021
+
+*The most return of agriculture is* **HOGS** :star_struck:
+
+*The less return of agriculture is* **WHEAT** :sweat_smile:
+
+![argiculture_pro_1](https://user-images.githubusercontent.com/94591580/151681289-6edcf867-13f4-4ae1-8f34-10dbe6dd08cd.png)
+---
+
+#### :bar_chart:A visualize data of All categories returns  from April 15th, 2020 to December 31st, 2021
+
+![all_pro_1](https://user-images.githubusercontent.com/94591580/151681315-4c78d8c6-e946-4b1a-8c95-456a355b0d68.png)
+
+
 ## Contributors
 
 [Nguyen Dao](https://www.linkedin.com/in/nguyen-dao-a55669215/)
