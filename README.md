@@ -19,7 +19,6 @@ Before running the application first install the following dependencies:
 
 ```python
   pip install pandas
-  pip install jupyterlab
   pip install plotly 
 
 ```
