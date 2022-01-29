@@ -8,7 +8,7 @@
 --Requirements
 python 3.0
 
-- [plotly](https://pypi.org/project/plotly/) - for analyzing data 
+- [plotly](https://pypi.org/project/plotly/) - for visualizing data
 - [pandas](https://pypi.org/project/pandas/) - for analyzing data 
 
 ---
@@ -25,8 +25,7 @@ Before running the application first install the following dependencies:
 ```
 ---
 ## Usage
-To properly utilize the application, clone the repository using 'git clone' and navigate to main.py.
-
+To properly utilize the application, clone the repository using 'git clone' and run main.py from your chosen Command Line Interface within the necessary envrionment from the file directory. 
 
 ---
 
