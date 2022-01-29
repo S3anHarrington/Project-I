@@ -30,11 +30,11 @@ To execute the application properly, first clone the repository using 'git clone
 
 ## Contributors
 
-[Dao, Nguyen](https://www.linkedin.com/in/nguyen-dao-a55669215/)
+[Nguyen Dao](https://www.linkedin.com/in/nguyen-dao-a55669215/)
 
-[Harrington, Sean](https://www.linkedin.com/in/sean-harrington16/)
+[Sean Harrington](https://www.linkedin.com/in/sean-harrington16/)
 
-[Rudd, Matthew](https://www.linkedin.com/in/matthewp-rudd/)
+[Matthew Rudd](https://www.linkedin.com/in/matthewp-rudd/)
 
 Miklas, Christopher. 
 
