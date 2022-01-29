@@ -42,3 +42,5 @@ Miklas, Christopher.
 ---
 
 ## License
+
+MIT
