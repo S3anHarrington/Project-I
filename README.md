@@ -25,7 +25,7 @@ Before running the application first install the following dependencies:
 ```
 ---
 ## Usage
-To properly utilize the application, clone the repository using 'git clone' and run main.py from your chosen Command Line Interface within the necessary envrionment from the file directory. 
+To properly utilize the application, clone the repository using 'git clone' and run main.py from your chosen Command Line Interface within the necessary environment from the file directory. 
 
 ---
 
