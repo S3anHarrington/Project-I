@@ -318,7 +318,7 @@ AMC_daily_returns['Portfolio'] = pd.NaT
 
 # In[73]:
 
-starting_value = 1200
+
 # Calculate the AMC cumulative value over time 
 AMC_daily_returns = AMC_daily_returns.assign(Portfolio=(1+AMC_daily_returns['AMC'].fillna(0)).cumprod().mul(starting_value))
 

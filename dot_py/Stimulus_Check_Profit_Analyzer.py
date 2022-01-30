@@ -158,7 +158,6 @@ resources_daily_returns = resources.pct_change()
 # In[107]:
 
 
-starting_value = 1200
 
 
 # In[112]:
