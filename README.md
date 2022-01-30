@@ -26,7 +26,7 @@ Before running the application first install the following dependencies:
 ## Usage
 To execute the application properly, first clone the repository using 'git clone' and then run main.py from your chosen Command Line Interface within the file directory from the necessary environment. 
 
-:atm:Starting with the amount 2000:atm:
+:atm:Starting with the amount 1200:atm:
 
 ---
 
