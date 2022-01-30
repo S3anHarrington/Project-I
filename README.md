@@ -54,7 +54,7 @@ To execute the application properly, first clone the repository using 'git clone
 
 *Also,* **Lumber** was at peak with 507% gain on May 7th, 2021  :sweat_smile:
 
-![natural_pro_1](https://user-images.githubusercontent.com/94591580/151681074-41c084ef-8ccd-4452-87cc-f2a984af2171.png)
+![natural_pro_1](https://user-images.githubusercontent.com/94591580/151682718-32d947df-cbae-48ee-b6ca-71a22656d72e.png)
 ---
 
 #### :bar_chart:A visualize data of Agriculture returns  from April 15th, 2020 to December 31st, 2021
@@ -68,7 +68,9 @@ To execute the application properly, first clone the repository using 'git clone
 
 #### :bar_chart:A visualize data of All categories returns  from April 15th, 2020 to December 31st, 2021
 
-![all_pro_1](https://user-images.githubusercontent.com/94591580/151681315-4c78d8c6-e946-4b1a-8c95-456a355b0d68.png)
+![all_pro_1](https://user-images.githubusercontent.com/94591580/151682728-227fd38f-ca79-4c67-91c3-6c5606cd1537.png)
+
+---
 
 
 ## Contributors
