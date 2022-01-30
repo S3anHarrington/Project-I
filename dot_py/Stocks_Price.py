@@ -7,18 +7,14 @@
 #Import the required libraries and dependencies.
 import pandas as pd
 from pathlib import Path
-# Import the NumPy library
-import numpy as np
 import csv
-import questionary
-import fire
 import sys
-import plotly.express as px
-import plotly.offline as pyo
-import plotly.graph_objects as go
 
 
-# In[24]:
+#Open txt file and store as a variable. 
+starting_value_str = open("../The_Hodlers/starting_value.txt",'r')
+
+starting_value = float(starting_value_str.read())
 
 
 # Read in the CSV file called "AMC_.csv" using the Path module. 
@@ -322,7 +318,7 @@ AMC_daily_returns['Portfolio'] = pd.NaT
 
 # In[73]:
 
-starting_value = 1200
+
 # Calculate the AMC cumulative value over time 
 AMC_daily_returns = AMC_daily_returns.assign(Portfolio=(1+AMC_daily_returns['AMC'].fillna(0)).cumprod().mul(starting_value))
 

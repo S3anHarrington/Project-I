@@ -7,20 +7,16 @@
 
 
 # Import the required libraries and dependencies.
-import sys 
-import fire
-import csv
-import numpy as np
-import questionary
-import pandas as pd 
+import pandas as pd
 from pathlib import Path
-
-import plotly.express as px
-import plotly.offline as pyo
-import plotly.graph_objects as go
+import csv
+import sys
 
 
-# In[3]:
+#Open txt file. 
+starting_value_str = open("../The_Hodlers/starting_value.txt",'r')
+#Read starting value and convert to float. 
+starting_value = float(starting_value_str.read())
 
 
 # Read in the CSV file called "Resources.csv" using the Path module.
@@ -162,7 +158,6 @@ resources_daily_returns = resources.pct_change()
 # In[107]:
 
 
-starting_value = 1200
 
 
 # In[112]:

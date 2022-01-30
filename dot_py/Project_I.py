@@ -4,20 +4,16 @@
 # In[4]:
 
 
-import sys 
-import fire
-import csv
-import questionary
-import pandas as pd 
+import pandas as pd
 from pathlib import Path
+import csv
+import sys
 
-import plotly.express as px
-import plotly.offline as pyo
-import plotly.graph_objects as go
 
-starting_value = 1200
-# In[5]:
-
+#Open txt file and store as variable. 
+starting_value_str = open("../The_Hodlers/starting_value.txt",'r')
+#Read starting value and convert to float. 
+starting_value = float(starting_value_str.read())
 
 #Read in the CSV file called "TRX_USD.csv" using the path module. 
 trx_path = Path('./csv_data/csv_files_crypto/TRX_USD.csv')

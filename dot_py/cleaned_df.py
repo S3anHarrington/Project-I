@@ -3,19 +3,17 @@
 
 # In[3]:
 
-
-import sys 
-import fire
-import csv
-import questionary
-import pandas as pd 
+import pandas as pd
 from pathlib import Path
+import csv
+import sys
 
-import plotly.express as px
-import plotly.offline as pyo
-import plotly.graph_objects as go
-
-starting_value = 1200
+#Open txt file as a variable. 
+starting_value_str = open("../The_Hodlers/starting_value.txt",'r')
+#Read starting value.
+starting_value = (starting_value_str.read())
+#Convert to float
+starting_value = float(starting_value)
 
 # In[4]:
 
